@@ -10,7 +10,7 @@ contactForm.addEventListener('submit',function(event){
         alert('Vui lòng điền đầy đủ vào các trường')
     }else{
         alert('Biểu thị đã được gửi !!!');
-        window.location.href = '/html/Home.html'
+        window.location.href = 'Home.html'
         contactForm.reset();
         
     }

@@ -41,6 +41,6 @@ registerForm.addEventListener('submit',function(e){
         localStorage.setItem(username,JSON.stringify(userData));
         registerForm.reset()
         alert('Bạn đăng ký thành công!')
-        window.location.href = "/HTML/Login.html"
+        window.location.href = "Login.html"
     }
 });
