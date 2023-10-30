@@ -556,6 +556,21 @@ footer .box-container .box .links  i:hover{
 }
 
 
+@m@media (max-width:991px) {
+    html {
+        font-size: 55%;
+
+    }
+    .header {
+        padding: 2rem;
+    }
+    section {
+        padding: 2rem ;
+    }
+
+}
+
+
 @media (max-width:768px) {
     #menu-btn {
         display: inline-block;
@@ -587,7 +602,10 @@ footer .box-container .box .links  i:hover{
     .heading{
         font-size: 2.5rem;
     }
-    
+   #wp-product{
+    padding: 0;
+   }
+   
     .footer{
         text-align: center;
     }

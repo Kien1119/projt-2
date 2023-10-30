@@ -169,3 +169,45 @@ section .hero-text button:hover{
     margin-top: 29px;
     color: #fff;
 }
+
+@media screen and (max-width: 767px) {
+     ul {
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+     li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+     a {
+      display: block;
+    }
+  }
+  
+  /* Định dạng trên tablet */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+     ul {
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+     li {
+      display: inline;
+      margin: 0 15px;
+    }
+  }
+  
+  /* Định dạng trên desktop */
+  @media screen and (min-width: 1024px) {
+     ul {
+      float: right;
+      margin-top: 0;
+    }
+  
+     li {
+      display: inline;
+      margin: 0 15px;
+    }
+  }
